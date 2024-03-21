@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
-  default     = "ap-southeast-2"
+  default     = "ap-southeast-1"
 }
 
 variable "instance_type" {
@@ -9,6 +9,6 @@ variable "instance_type" {
 }
 
 variable "ami_id" {
-  description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-004c37117ce961527"
+  description = "AMI for amz Ec2 instance"
+  default     = "ami-015f72d56355ebc27"
 }
